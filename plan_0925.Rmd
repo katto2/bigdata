@@ -109,11 +109,11 @@ prelim$coefficients
 - 총괄: 장기복, 강성원
 - 주제 선정: 추후 선정(채용?)
 - 보고서 기획:  팀 전체 참여하고 팀장이 주재하는 편집회의
-- 환경관련분석: 이동현/ Assist 김진형, 김도연
-- 경제관련분석: 강성원
+- 환경관련분석: 이동현/ Assist 김진형
+- 경제관련분석: 강성원/ Assist 김도여
 - 자료관리: 한국진/Assist 김도연  
 - 출판: 김진형
-- General Assistant: 김진형
+- General Assistant: 김진형/김도여
 - 행정: 최두연
 
 ## 당면과제 (Due to Dec. 2016)
@@ -130,6 +130,12 @@ prelim$coefficients
 - Sample Output : Deep Learning algorithm을 활용한 환경관련 분석 결과 소내 공개
 
 
+## Action Plan
+```{r, out.width = "800px"}
+knitr::include_graphics("ap.png")
+```
+
+
 ## 실원 교육 (2016 하반기-2017 1/4분기)
 
 - COP meeting (2016년) : KEI 연구보고서 Access log data 분석
@@ -140,9 +146,10 @@ prelim$coefficients
       
 - Workshop (2017 1/4분기): Data journalism에 필요한 skill 공유
       + R introductory course (https://sites.google.com/site/undergraduateguidetor/home)
-      + Data managment: Webscraping tools + Data managment 
-      + Analysis: Basic Deep learning algorithm 
-      + Publication: Rmarkdown + Web publication tools (Github,RPub,WIX)
+      + 기초통계학
+      + Publication: Rmarkdown + Web publication tools (Github,WordPress)
+      + Project 단계별 과정 실습: 수집-분석-배포
+      
 
 ## 부탁의 말씀
 
@@ -150,7 +157,6 @@ prelim$coefficients
 
 - 일상적인 요청 및 제출은 Slack을 이용 (공문은 intranet 계속 이용)
 
-- '당면과제' 관련 Action plan 마련: Slack에 post (due to 09/30)
 
 - 아는 것 나누기
     + 예: http://blog.revolutionanalytics.com/

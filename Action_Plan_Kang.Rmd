@@ -1,0 +1,43 @@
+---
+title: "ActionPlan_KSW"
+author: "Kang Sung Won"
+output:
+  html_document: default
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. 목적: 환경규제의 경제적 파급효과 분석 모형 구축
+
+- 환경정책 $\rightarrow$ 가격 변화 $\rightarrow$ 기업/가계에 미치는 영향 분석
+    + 환경정책 $\rightarrow$ 가격 및 수량 변화: 일반균형모형
+    + 가격변화 $\rightarrow$ 가계에 미치는 영향: 소비자 부분균형모형
+    + 가격변화 $\rightarrow$ 기업에 미치는 영향: 생산자 부분균형모형 
+
+2. 방법 
+
+- 수식 도출 $\rightarrow$ coding (가상 data) $\rightarrow$ Calibration (real data) $\rightarrow$ 분석
+
+
+3. 현황
+
+- 일반균형모형 : 구축 완료 (7개 산업)
+
+- 소비자 부분균형 모형 : 수식 도출 및 GAMS code 구축
+
+- 생산자 부분균형 모형 : 수식 도출
+
+3. 향후 계획
+
+- 10월 3-4주차: 소비자 모형을 '가계동향조사' 자료에 맞게 Calibration
+- 11월 1-2주차: 생산자 모형 GAMS code 구축
+- 11월 3-4주차: 생산자 모형을 '광업제조업통계조사 자료에 맟게 Calibration
+- 12월 pilot study 실시
+    + 친환경차보조금이 가계의 후생에 미친 영향
+    + 탄소세가 기업의 산출에 미친 영향
+
